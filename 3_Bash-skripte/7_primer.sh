@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# --------------------------------------------------
+# Bash                           # Python
+
+# --------------------------------------------------
+# Unosi
+
+echo -n "Unesite A: "            # print("Unesite A: ", end="")
+read a                           # a = input()
+echo -n "Unesite B: "            # print("Unesite B: ", end="")
+read b                           # b = input()
+
+# --------------------------------------------------
+# Proizvod
+
+proizvod=$(( "$a" * "$b" ))      # proizvod = a * b
+
+# --------------------------------------------------
+
+for (( i = 0; i < 10; i++ )); do # for i in range(0, 10, 1):
+	echo "$proizvod"             #     print(f"{proizvod}")
+done
+
+# --------------------------------------------------
