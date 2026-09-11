@@ -20,7 +20,7 @@ function funk1()                  # def funk1():
 		else                      #     else:
 			break                 #         break
 		fi
-		((i++))                   #     i += 1
+		(( i++ ))                 #     i += 1
 	done
 }
 
