@@ -1,0 +1,17 @@
+2. FTP komande
+
+→ ftp adresa               # Povezivanje na udaljeni računar
+→ pwd                      # Prikaz radnog direktorijuma na udaljenom računaru
+→ ls                       # Prikaz sadržaja radnog direktorijuma na udaljenom računaru
+→ mkdir direktorijum/      # Kreiranje direktorijuma na udaljenom računaru
+→ cd direktorijum/         # Promena direktorijuma na udaljenom računaru
+→ cd ../                   # Povratak u naddirektorijum na udaljenom računaru
+→ rmdir direktorijum/      # Brisanje praznog direktorijuma na udaljenom računaru
+→ lcd ../                  # Povratak u naddirektorijum na lokalnom računaru
+→ delete fajl              # Brisanje fajla na udaljenom računaru
+→ get fajl                 # Kopiranje fajla sa udaljenog računara
+→ mget fajl1 fajl2         # Kopiranje fajlova sa udaljenog računara
+→ put fajl                 # Kopiranje fajla na udaljeni računar
+→ mput fajl1 fajl2         # Kopiranje fajlova na udaljeni računar
+→ help ili ?               # Prikaz pomoći/spiska FTP komandi
+→ exit                     # Prekid FTP konekcije

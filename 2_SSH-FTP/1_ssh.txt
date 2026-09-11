@@ -1,0 +1,18 @@
+1. SSH komande
+
+→ ssh korisnik@adresa      # Povezivanje na udaljeni računar
+→ pwd                      # Prikaz radnog direktorijuma
+→ ls                       # Prikaz sadržaja radnog direktorijuma
+→ mkdir direktorijum/      # Kreiranje direktorijuma
+→ cd direktorijum/         # Prelazak u direktorijum
+→ cd ../                   # Povratak u naddirektorijum
+→ rmdir direktorijum/      # Brisanje praznog direktorijuma
+→ touch fajl1              # Kreiranje praznog fajla
+→ nano fajl1               # Otvaranje fajla u editoru; Ctrl + O, Enter, Ctrl + X
+→ cat fajl1                # Prikaz sadržaja fajla
+→ cp fajl1 fajl2           # Kopiranje fajla
+→ mv fajl2 fajl3           # Preimenovanje/premeštanje fajla
+→ rm fajl3                 # Brisanje fajla
+→ clear                    # Brisanje sadržaja terminala
+→ history                  # Prikaz istorije komandi
+→ exit                     # Prekid SSH konekcije
