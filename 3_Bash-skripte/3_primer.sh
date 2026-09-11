@@ -11,7 +11,7 @@ x=3                       # x = 3
 # --------------------------------------------------
 # if-else
 
-if [ 5 -eq "$x" ]; then   # if (5 == x):
+if (( 5 == "$x" )); then  # if (5 == x):
 	echo "5 == $x"        #     print(f"5 == {x}")
 else                      # else:
 	echo "5 != $x"        #     print(f"5 != {x}")
@@ -20,9 +20,9 @@ fi
 # --------------------------------------------------
 # if-elif-else
 
-if [ 5 -gt "$x" ]; then   # if (5 > x):
+if (( 5 > "$x" )); then   # if (5 > x):
 	echo "5 > $x"         #     print(f"5 > {x}")
-elif [ 5 -lt "$x" ]; then # elif (5 < x):
+elif (( 5 < "$x" )); then # elif (5 < x):
 	echo "5 < $x"         #     print(f"5 < {x}")
 else                      # else:
 	echo "5 == $x"        #     print(f"5 == {x}")
