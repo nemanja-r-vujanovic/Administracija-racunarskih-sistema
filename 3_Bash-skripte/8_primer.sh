@@ -1,6 +1,17 @@
 #!/bin/bash
 
 # --------------------------------------------------
+# Niz
+
+voce_niz=("jabuka" "banana" "mandarina")        # voce_niz = ["jabuka", "banana", "mandarina"]
+# voce_niz[2]="kivi"                            # # voce_niz[2] = "kivi"
+# echo "${voce_niz[2]}"                         # # print(voce_niz[2])
+
+for (( i = 0; i < "${#voce_niz[@]}"; i++ )); do # for i in range(len(voce_niz)):
+	echo "${voce_niz[$i]}"                      #     print(voce_niz[i])
+done
+
+# --------------------------------------------------
 # Sel promenljive
 
 sleep 3 &
