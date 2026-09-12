@@ -43,6 +43,7 @@ unset boje[kivi]                                # del boje["kivi"]
 
 echo "${boje[jabuka]}"                          # print(boje["jabuka"])
 echo "${boje[banana]}"                          # print(boje["banana"])
+echo                                            # print()
 
 # ----------------------------------------------------------------------------------------------------
 # Sel promenljive
