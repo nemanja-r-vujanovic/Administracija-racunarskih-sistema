@@ -4,6 +4,24 @@
 # Bash                                          # Python
 
 # ----------------------------------------------------------------------------------------------------
+# Stringovi
+
+tekst1="jabuka"                                 # tekst1 = "jabuka"
+tekst2="banana"                                 # tekst2 = "banana"
+
+if [[ "$tekst1" == "$tekst2" ]]; then           # if (tekst1 == tekst2):
+	echo "$tekst1 == $tekst2"                   #     print(f"{tekst1} == {tekst2}")
+elif [[ "$tekst1" != "$tekst2" ]]; then         # elif (tekst1 != tekst2):
+	echo "$tekst1 != $tekst2"                   #     print(f"{tekst1} != {tekst2}")
+fi
+
+if [[ "$tekst1" > "$tekst2" ]]; then            # if (tekst1 > tekst2):
+	echo "$tekst1 > $tekst2"                    #     print(f"{tekst1} > {tekst2}")
+elif [[ "$tekst1" < "$tekst2" ]]; then          # if (tekst1 < tekst2):
+	echo "$tekst1 < $tekst2"                    #     print(f"{tekst1} < {tekst2}")
+fi
+
+# ----------------------------------------------------------------------------------------------------
 # Niz
 
 voce_niz=("jabuka" "banana" "mandarina")        # voce_niz = ["jabuka", "banana", "mandarina"]
