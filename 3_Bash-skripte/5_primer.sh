@@ -26,7 +26,7 @@ function funk1()                  # def funk1():
 
 function funk2()                  # def funk2():
 {
-	# Celi brojevi:
+	# Osnovne racunske operacije sa celim brojevima:
 	zbir=$(( "$1" + "$2" ))       # zbir = arg1 + arg2
 	razlika=$(( "$1" - "$2" ))    # razlika = arg1 - arg2
 	proizvod=$(( "$1" * "$2" ))   # proizvod = arg1 * arg2
@@ -39,7 +39,7 @@ function funk2()                  # def funk2():
 	echo "$1 / $2 = $kolicnik"    # print(f"{arg1} / {arg2} = {kolicnik}")
 	echo "$1 % $2 = $ostatak"     # print(f"{arg1} % {arg2} = {ostatak}")
 
-	# Realni brojevi:
+	# Osnovne racunske operacije sa realnim brojevima:
 	zbir=$(awk "BEGIN { print $1 + $2 }")
 	razlika=$(awk "BEGIN { print $1 - $2 }")
 	proizvod=$(awk "BEGIN { print $1 * $2 }")
