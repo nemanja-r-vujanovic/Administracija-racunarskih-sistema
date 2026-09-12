@@ -43,9 +43,9 @@ echo "Izlazni status poslednje komande: $?"
 naziv_komande="git"
 
 if command -v "$naziv_komande" >/dev/null 2>&1; then
-	echo "$naziv_komande postoji."
+	printf "\n$naziv_komande postoji.\n"
 else
-	echo "$naziv_komande ne postoji!"
+	printf "\n$naziv_komande ne postoji!\n"
 fi
 
 # --------------------------------------------------
