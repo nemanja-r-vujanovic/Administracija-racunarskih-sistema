@@ -45,13 +45,13 @@ function funk2()                  # def funk2():
 	proizvod=$(awk "BEGIN { print $1 * $2 }")
 	kolicnik=$(awk "BEGIN { print $1 / $2 }")
 
-	printf "%.2f\n" "$zbir"
-	printf "%.2f\n" "$razlika"
-	printf "%.2f\n" "$proizvod"
-	printf "%.2f\n" "$kolicnik"
+	printf "%.2f + %.2f = %.2f\n" "$1" "$2" "$zbir"
+	printf "%.2f + %.2f = %.2f\n" "$1" "$2" "$razlika"
+	printf "%.2f + %.2f = %.2f\n" "$1" "$2" "$proizvod"
+	printf "%.2f + %.2f = %.2f\n" "$1" "$2" "$kolicnik"
 }
 
 funk1                             # funk1()
-funk2 20 10                       # funk2()
+funk2 10 3                        # funk2()
 
 # --------------------------------------------------
