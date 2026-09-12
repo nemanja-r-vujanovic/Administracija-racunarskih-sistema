@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# --------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
+# Bash                                          # Python
+
+# ----------------------------------------------------------------------------------------------------
 # Niz
 
 voce_niz=("jabuka" "banana" "mandarina")        # voce_niz = ["jabuka", "banana", "mandarina"]
@@ -11,7 +14,7 @@ for (( i = 0; i < "${#voce_niz[@]}"; i++ )); do # for i in range(len(voce_niz)):
 	echo "${voce_niz[$i]}"                      #     print(voce_niz[i])
 done
 
-# --------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Recnik
 
 declare -A boje                                 # boje = {}
@@ -23,7 +26,7 @@ unset boje[kivi]                                # del boje["kivi"]
 echo "${boje[jabuka]}"                          # print(boje["jabuka"])
 echo "${boje[banana]}"                          # print(boje["banana"])
 
-# --------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Sel promenljive
 
 sleep 3 &
@@ -37,7 +40,7 @@ echo "PID trenutnog sela: $$"
 echo "PID poslednjeg procesa: $!"
 echo "Izlazni status poslednje komande: $?"
 
-# --------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Operatori za proveru fajlova:
 # -e "$fajl"            # da li postoji fajl/direktorijum
 # -s "$fajl"            # da li postoji fajl/direktorijum i ima veličinu > 0 bajtova
@@ -71,4 +74,4 @@ else
 	printf "\n$naziv_komande ne postoji!\n"
 fi
 
-# --------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
