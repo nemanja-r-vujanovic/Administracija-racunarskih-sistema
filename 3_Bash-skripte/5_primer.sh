@@ -27,10 +27,19 @@ function funk1()                  # def funk1():
 function funk2()                  # def funk2():
 {
 	zbir=$(( "$1" + "$2" ))       # zbir = arg1 + arg2
-	echo "Zbir: $1 + $2 = $zbir"  # print(f"Zbir: {arg1} + {arg2} = {zbir}")
+	razlika=$(( "$1" - "$2" ))    # razlika = arg1 - arg2
+	proizvod=$(( "$1" * "$2" ))   # proizvod = arg1 * arg2
+	kolicnik=$(( "$1" / "$2" ))   # kolicnik = arg1 / arg2
+	ostatak=$(( "$1" % "$2" ))    # ostatak = arg1 % arg2
+
+	echo "$1 + $2 = $zbir"        # print(f"{arg1} + {arg2} = {zbir}")
+	echo "$1 - $2 = $razlika"     # print(f"{arg1} - {arg2} = {razlika}")
+	echo "$1 * $2 = $proizvod"    # print(f"{arg1} * {arg2} = {proizvod}")
+	echo "$1 / $2 = $kolicnik"    # print(f"{arg1} / {arg2} = {kolicnik}")
+	echo "$1 % $2 = $ostatak"     # print(f"{arg1} % {arg2} = {ostatak}")
 }
 
 funk1                             # funk1()
-funk2 10 20                       # funk2()
+funk2 20 10                       # funk2()
 
 # --------------------------------------------------
