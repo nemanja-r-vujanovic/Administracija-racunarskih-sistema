@@ -12,6 +12,18 @@ for (( i = 0; i < "${#voce_niz[@]}"; i++ )); do # for i in range(len(voce_niz)):
 done
 
 # --------------------------------------------------
+# Recnik
+
+declare -A boje                                 # boje = {}
+boje[jabuka]="crvena"                           # boje["jabuka"] = "crvena"
+boje[banana]="zuta"                             # boje["banana"] = "zuta"
+boje[kivi]="zelena"                             # boje["kivi"] = "zelena"
+unset boje[kivi]                                # del boje["kivi"]
+
+echo "${boje[jabuka]}"                          # print(boje["jabuka"])
+echo "${boje[banana]}"                          # print(boje["banana"])
+
+# --------------------------------------------------
 # Sel promenljive
 
 sleep 3 &
