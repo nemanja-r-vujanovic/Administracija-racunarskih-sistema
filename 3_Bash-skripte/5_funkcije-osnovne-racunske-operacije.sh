@@ -4,9 +4,10 @@
 # Bash                            # Python
 
 # ----------------------------------------------------------------------------------------------------
-# Promenljiva
+# Promenljive
 
 i=0                               # i = 0
+s=0                               # s = 0
 
 # ----------------------------------------------------------------------------------------------------
 # Funkcije
@@ -18,13 +19,21 @@ function funk1()                  # def funk1():
 			echo "$i"             #         print(f"{i}")
 		else                      #     else:
 			break                 #         break
-			# continue            #         # continue
 		fi
 		(( i++ ))                 #     i += 1
 	done
 }
 
 function funk2()                  # def funk2():
+{
+	while (( 10 > "$i" )); do     # while (10 > i):
+		(( s += "$i" ))           #     s += i
+		(( i++ ))                 #     i += 1
+	done
+	echo "Suma: $s"               # print(f"Suma: {s}")
+}
+
+function funk3()                  # def funk3():
 {
 	# Osnovne racunske operacije sa celim brojevima:
 	zbir=$(( "$1" + "$2" ))       # zbir = arg1 + arg2
@@ -52,6 +61,7 @@ function funk2()                  # def funk2():
 }
 
 funk1                             # funk1()
-funk2 10 3                        # funk2()
+funk2                             # funk2()
+funk3 10 3                        # funk3()
 
 # ----------------------------------------------------------------------------------------------------
