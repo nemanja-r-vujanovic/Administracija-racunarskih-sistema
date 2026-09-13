@@ -21,6 +21,13 @@ elif [[ "$tekst1" < "$tekst2" ]]; then          # if (tekst1 < tekst2):
 	echo "$tekst1 < $tekst2"                    #     print(f"{tekst1} < {tekst2}")
 fi
 
+tekst="Primer"                                  # tekst = "Primer"
+if (( "${#tekst}" < 1 )); then                  # if (len(tekst) < 1):
+	echo "String je prazan!"                    #     print("String je prazan!")
+else                                            # else:
+	echo "String nije prazan."                  #     print("String nije prazan")
+fi
+
 # ----------------------------------------------------------------------------------------------------
 # Niz
 
