@@ -12,7 +12,7 @@ i=1                        # i = 1
 # while
 
 while (( 10 >= "$i" )); do # while (10 >= i):
-	echo "$i"              #     print(f"{i}")
+	echo "$i"              #     print(i)
 	(( i++ ))              #     i += 1
 	# break                #     # break
 	# continue             #     # continue
