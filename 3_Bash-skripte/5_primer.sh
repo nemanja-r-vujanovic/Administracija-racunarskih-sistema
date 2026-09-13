@@ -18,6 +18,7 @@ function funk1()                  # def funk1():
 			echo "$i"             #         print(f"{i}")
 		else                      #     else:
 			break                 #         break
+			# continue            #         # continue
 		fi
 		(( i++ ))                 #     i += 1
 	done
