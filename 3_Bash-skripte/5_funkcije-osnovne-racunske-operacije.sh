@@ -26,7 +26,8 @@ function funk1()                  # def funk1():
 
 function funk2()                  # def funk2():
 {
-	while (( 10 > "$i" )); do     # while (10 > i):
+	i=1                           # i = 1
+	while (( 10 >= "$i" )); do    # while (10 >= i):
 		(( s += "$i" ))           #     s += i
 		(( i++ ))                 #     i += 1
 	done
