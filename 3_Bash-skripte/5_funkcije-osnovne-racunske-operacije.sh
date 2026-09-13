@@ -16,7 +16,7 @@ function funk1()                  # def funk1():
 {
 	while true; do                # while (true):
 		if (( 13 != "$i" )); then #     if (13 != i):
-			echo "$i"             #         print(f"{i}")
+			echo "$i"             #         print(i)
 		else                      #     else:
 			break                 #         break
 		fi
