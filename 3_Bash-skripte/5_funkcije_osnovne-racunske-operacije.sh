@@ -75,5 +75,6 @@ function ulepsaj_ispis()          # def ulepsaj_ispis():
 funk1                             # funk1()
 funk2                             # funk2()
 funk3 10 3                        # funk3()
+echo "$(ulepsaj_ispis)"           # print(ulepsaj_ispis())
 
 # ----------------------------------------------------------------------------------------------------
