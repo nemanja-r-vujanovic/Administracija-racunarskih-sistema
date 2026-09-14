@@ -11,6 +11,9 @@ read a                              # a = input()
 echo -n "Unesite B: "               # print("Unesite B: ", end="")
 read b                              # b = input()
 
+read -n 1 unos                      # samo jedan karakter
+read -n 2 unos                      # samo dva karaktera
+
 # ----------------------------------------------------------------------------------------------------
 # for
 
