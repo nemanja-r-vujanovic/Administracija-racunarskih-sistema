@@ -67,6 +67,7 @@ function ulepsaj_ispis()          # def ulepsaj_ispis():
 	string=""                     #     string = ""
 	while (( 100 > "$i" )); do    #     while (100 > i):
 		string+="-"               #         string += "-"
+		(( i++ ))
 	done
 	echo "$string"                #     return string
 }
