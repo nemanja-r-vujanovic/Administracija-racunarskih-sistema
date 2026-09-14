@@ -59,9 +59,9 @@ function izdvoj_bitne_prog_jezike()
 	echo "C++: '$cpp_jezik' fajlova" >> "$krajnji_fajl"
 	echo "C#: '$cs_jezik' fajlova" >> "$krajnji_fajl"
 	echo "Java: '$java_jezik' fajlova" >> "$krajnji_fajl"
-	echo "Python: '$py_jezik' fajlova" >> "$krajnji_fajl"
+	echo "Pajton: '$py_jezik' fajlova" >> "$krajnji_fajl"
 	echo "Rust: '$rs_jezik' fajlova" >> "$krajnji_fajl"
-	echo "Assembly [s ($s_jezik) + S ($S_jezik)]: '$asm_zbir' fajlova" >> "$krajnji_fajl"
+	echo "Asembler [s ($s_jezik) + S ($S_jezik)]: '$asm_zbir' fajlova" >> "$krajnji_fajl"
 	echo "Bash: '$sh_jezik' fajlova" >> "$krajnji_fajl"
 
 	obrisi_fajlove "$argument1" "$argument2"
