@@ -61,6 +61,16 @@ function funk3()                  # def funk3():
 	printf "%.2f / %.2f = %.2f\n" "$1" "$2" "$kolicnik"
 }
 
+function ulepsaj_ispis()          # def ulepsaj_ispis():
+{
+	i=0                           # i = 0
+	string=""                     #     string = ""
+	while (( 100 > "$i" )); do    #     while (100 > i):
+		string+="-"               #         string += "-"
+	done
+	echo "$string"                #     return string
+}
+
 funk1                             # funk1()
 funk2                             # funk2()
 funk3 10 3                        # funk3()
