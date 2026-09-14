@@ -72,9 +72,31 @@ function ulepsaj_ispis()          # def ulepsaj_ispis():
 	echo "$string"                #     return string
 }
 
+function primer1()                # def primer1():
+{
+	return 0                      #     return 0
+}
+
+function primer2()                # def primer2():
+{
+	return 1                      #     return 1
+}
+
 funk1                             # funk1()
 funk2                             # funk2()
 funk3 10 3                        # funk3()
 echo "$(ulepsaj_ispis)"           # print(ulepsaj_ispis())
+
+if primer1; then                  # if (primer1 == 0):
+	echo "U redu."                #     print("U redu.")
+else                              # else:
+	echo "Greska!"                #     print("Greska!")
+fi
+
+if primer2; then                  # if (primer2 == 0):
+	echo "U redu."                #     print("U redu.")
+else                              # else:
+	echo "Greska!"                #     print("Greska!")
+fi
 
 # ----------------------------------------------------------------------------------------------------
