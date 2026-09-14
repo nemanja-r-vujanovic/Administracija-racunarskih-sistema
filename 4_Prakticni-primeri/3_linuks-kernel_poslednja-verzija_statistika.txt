@@ -2,7 +2,7 @@ C: '37347' fajlova
 C++: '6' fajlova
 C#: '0' fajlova
 Java: '0' fajlova
-Python: '429' fajlova
+Pajton: '429' fajlova
 Rust: '496' fajlova
-Assembly [s (0) + S (1348)]: '1348' fajlova
+Asembler [s (0) + S (1348)]: '1348' fajlova
 Bash: '1167' fajlova
