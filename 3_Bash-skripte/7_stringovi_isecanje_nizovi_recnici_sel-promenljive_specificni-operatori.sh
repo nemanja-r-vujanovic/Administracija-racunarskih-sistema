@@ -29,6 +29,18 @@ else                                            # else:
 fi
 
 # ----------------------------------------------------------------------------------------------------
+# Isecanje stringa
+
+ime="Nemanja"
+echo "${ime}"                                   # Nemanja
+echo "${ime:0:2}"                               # Ne
+echo "${ime::2}"                                # Ne
+echo "${ime::-1}"                               # Nemanj
+echo "${ime:(-1)}"                              # a
+echo "${ime:(-2)}"                              # ja
+echo "${ime:(-2):2}"                            # ja
+
+# ----------------------------------------------------------------------------------------------------
 # Niz
 
 voce_niz=("jabuka" "banana" "mandarina")        # voce_niz = ["jabuka", "banana", "mandarina"]
