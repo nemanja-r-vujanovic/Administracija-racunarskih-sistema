@@ -66,6 +66,7 @@ for (( i = 0; i < "${#voce_niz[@]}"; i++ )); do # for i in range(len(voce_niz)):
 	echo "${voce_niz[$i]}"                      #     print(voce_niz[i])
 done
 
+# Jos primera:
 niz1=(test{1..2})
 echo "${niz1[@]}"                               # test1 test2
 
@@ -74,6 +75,10 @@ echo "${niz2[@]}"                               # testA testB
 
 niz3=("${niz1[@]}" "${niz2[@]}")
 echo "${niz3[@]}"                               # test1 test2 testA testB
+
+declare -a brojevi=(1 2 3)
+brojevi+=(4 5)
+echo "${brojevi[@]}"                            # 1 2 3 4 5
 
 # ----------------------------------------------------------------------------------------------------
 # Recnik
