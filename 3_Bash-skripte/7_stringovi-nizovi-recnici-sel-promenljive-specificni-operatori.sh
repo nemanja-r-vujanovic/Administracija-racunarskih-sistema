@@ -53,6 +53,15 @@ echo "${boje[banana]}"                          # print(boje["banana"])
 echo "${#boje[@]}"                              # print(len(boje))
 echo "${boje[@]}"                               # print(boje.values())
 echo "${!boje[@]}"                              # print(boje.keys())
+
+for vrednost in "${boje[@]}"; do
+	echo "$vrednost"
+done
+
+for kljuc in "${!boje[@]}"; do
+	echo "$kljuc"
+done
+
 echo                                            # print()
 
 # ----------------------------------------------------------------------------------------------------
