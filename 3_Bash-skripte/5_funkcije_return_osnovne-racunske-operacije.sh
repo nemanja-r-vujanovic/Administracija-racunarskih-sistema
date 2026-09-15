@@ -72,6 +72,13 @@ function ulepsaj_ispis()          # def ulepsaj_ispis():
 	echo "$string"                #     return string
 }
 
+function ispisi()                 # def ispisi(arg1, arg2):
+{
+	local -n niz="$1"             #     niz = arg1
+	indeks="$2"                   #     indkes = arg2
+	echo "${niz[$indeks]}"        #     print(niz[indeks])
+}
+
 function primer1()                # def primer1():
 {
 	return 0                      #     return 0
@@ -86,6 +93,9 @@ funk1                             # funk1()
 funk2                             # funk2()
 funk3 10 3                        # funk3()
 echo "$(ulepsaj_ispis)"           # print(ulepsaj_ispis())
+
+predmeti=("UPR" "OOP" "ADM")      # predmeti = ("UPR", "OOP", "ADM")
+ispisi predmeti 2                 # ispisi(predmeti, 2)
 
 if primer1; then                  # if (primer1 == 0):
 	echo "U redu."                #     print("U redu.")
