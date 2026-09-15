@@ -58,7 +58,7 @@ for vrednost in "${boje[@]}"; do                # for vrednost in boje.values():
 	echo "$vrednost"                            #     print(vrednost)
 done
 
-for kljuc in "${!boje[@]}"; do                  # for vrednost in boje.keys():
+for kljuc in "${!boje[@]}"; do                  # for kljuc in boje.keys():
 	echo "$kljuc"                               #     print(kljuc)
 done
 
