@@ -87,7 +87,7 @@ echo "${brojevi[@]}"                            # 1 2 3 4 5
 
 vrednosti=("abc" "def" "ghi" "jkl" "mno")
 echo "${vrednosti[-1]}"                         # mno
-echo "${#vrednosti[1]}"                         # 3
+echo "${#vrednosti[1]}"                         # 3 (def duzina)
 echo "${vrednosti[@]:3:2}"                      # jkl mno
 echo "${!vrednosti[@]}"                         # 0 1 2 3 4
 
