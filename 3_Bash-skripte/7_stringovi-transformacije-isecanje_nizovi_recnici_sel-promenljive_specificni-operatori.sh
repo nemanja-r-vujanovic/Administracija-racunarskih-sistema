@@ -137,7 +137,7 @@ echo "Izlazni status poslednje komande: $?"
 # -p "$fajl"                                    # da li je FIFO
 # -S "$fajl"                                    # da li je socket
 
-# Operatori za poređenje fajlova:
+# Operatori za poredjenje fajlova:
 # "$fajl1" -nt "$fajl2"                         # da li je fajl1 noviji od fajla2
 # "$fajl1" -ot "$fajl2"                         # da li je fajl1 stariji od fajla2
 # "$fajl1" -ef "$fajl2"                         # da li fajl1 i fajl2 predstavljaju isti fajl
