@@ -29,6 +29,21 @@ else                                            # else:
 fi
 
 # ----------------------------------------------------------------------------------------------------
+# Transformacije
+
+str="BASH PROGRAMIRANJE"                        # str = "BASH PROGRAMIRANJE"
+echo "${str,}"                                  # bASH PROGRAMIRANJE
+echo "${str,,}"                                 # bash programiranje
+
+str="bash programiranje"                        # str = "bash programiranje"
+echo "${str^}"                                  # Bash programiranje
+echo "${str^^}"                                 # BASH PROGRAMIRANJE
+
+niz=("bash" "Programiranje")                    # niz = ("bash", "Programiranje")
+echo "${niz[@],}"                               # bash programiranje
+echo "${niz[@]^}"                               # Bash Programiranje
+
+# ----------------------------------------------------------------------------------------------------
 # Isecanje stringa
 
 ime="Nemanja"
