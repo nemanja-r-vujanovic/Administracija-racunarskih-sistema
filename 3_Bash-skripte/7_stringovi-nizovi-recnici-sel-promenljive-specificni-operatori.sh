@@ -54,12 +54,12 @@ echo "${#boje[@]}"                              # print(len(boje))
 echo "${boje[@]}"                               # print(boje.values())
 echo "${!boje[@]}"                              # print(boje.keys())
 
-for vrednost in "${boje[@]}"; do
-	echo "$vrednost"
+for vrednost in "${boje[@]}"; do                # for vrednost in boje.values():
+	echo "$vrednost"                            #     print(vrednost)
 done
 
-for kljuc in "${!boje[@]}"; do
-	echo "$kljuc"
+for kljuc in "${!boje[@]}"; do                  # for vrednost in boje.keys():
+	echo "$kljuc"                               #     print(kljuc)
 done
 
 echo                                            # print()
