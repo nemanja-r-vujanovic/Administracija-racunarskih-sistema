@@ -77,6 +77,10 @@ echo "${niz2[@]}"                               # testA testB
 niz3=("${niz1[@]}" "${niz2[@]}")
 echo "${niz3[@]}"                               # test1 test2 testA testB
 
+niz4=("${niz1[@]}" "${niz2[@]}")
+niz4+=("${niz4[@]}")                            # dupliranje sadrzaja
+echo "${niz4[@]}"                               # test1 test2 testA testB test1 test2 testA testB
+
 declare -a brojevi=(1 2 3)
 brojevi+=(4 5)
 echo "${brojevi[@]}"                            # 1 2 3 4 5
