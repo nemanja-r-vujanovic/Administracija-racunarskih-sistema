@@ -91,6 +91,9 @@ echo "${#vrednosti[1]}"                         # 3 (def duzina)
 echo "${vrednosti[@]:3:2}"                      # jkl mno
 echo "${!vrednosti[@]}"                         # 0 1 2 3 4
 
+vrednosti=( "${vrednosti[@]/ab*/}" )            # brisanje po indeksu
+echo "${vrednosti[@]}"                          # def ghi jkl mno
+
 # ----------------------------------------------------------------------------------------------------
 # Recnik
 
