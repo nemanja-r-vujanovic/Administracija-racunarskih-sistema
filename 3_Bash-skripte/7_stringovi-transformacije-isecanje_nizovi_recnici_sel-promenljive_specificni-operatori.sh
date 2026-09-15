@@ -67,6 +67,7 @@ for (( i = 0; i < "${#voce_niz[@]}"; i++ )); do # for i in range(len(voce_niz)):
 done
 
 # Jos primera:
+
 niz1=(test{1..2})
 echo "${niz1[@]}"                               # test1 test2
 
