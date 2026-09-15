@@ -75,7 +75,7 @@ function ulepsaj_ispis()          # def ulepsaj_ispis():
 function ispisi()                 # def ispisi(arg1, arg2):
 {
 	local -n niz="$1"             #     niz = arg1
-	indeks="$2"                   #     indkes = arg2
+	indeks="$2"                   #     indeks = arg2
 	echo "${niz[$indeks]}"        #     print(niz[indeks])
 }
 
