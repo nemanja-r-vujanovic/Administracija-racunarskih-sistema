@@ -14,24 +14,24 @@ s=0                               # s = 0
 
 function funk1()                  # def funk1():
 {
-	while true; do                # while (true):
-		if (( 13 != "$i" )); then #     if (13 != i):
-			echo "$i"             #         print(i)
-		else                      #     else:
-			break                 #         break
+	while true; do                #     while (true):
+		if (( 13 != "$i" )); then #         if (13 != i):
+			echo "$i"             #             print(i)
+		else                      #         else:
+			break                 #             break
 		fi
-		(( i++ ))                 #     i += 1
+		(( i++ ))                 #         i += 1
 	done
 }
 
 function funk2()                  # def funk2():
 {
-	i=1                           # i = 1
-	while (( 10 >= "$i" )); do    # while (10 >= i):
-		(( s += "$i" ))           #     s += i
-		(( i++ ))                 #     i += 1
+	i=1                           #     i = 1
+	while (( 10 >= "$i" )); do    #     while (10 >= i):
+		(( s += "$i" ))           #         s += i
+		(( i++ ))                 #         i += 1
 	done
-	echo "Suma: $s"               # print(f"Suma: {s}")
+	echo "Suma: $s"               #     print(f"Suma: {s}")
 }
 
 function funk3()                  # def funk3():
@@ -63,7 +63,7 @@ function funk3()                  # def funk3():
 
 function ulepsaj_ispis()          # def ulepsaj_ispis():
 {
-	i=0                           # i = 0
+	i=0                           #     i = 0
 	string=""                     #     string = ""
 	while (( 100 > "$i" )); do    #     while (100 > i):
 		string+="-"               #         string += "-"
