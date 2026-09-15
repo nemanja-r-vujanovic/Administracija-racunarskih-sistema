@@ -50,6 +50,9 @@ unset boje[kivi]                                # del boje["kivi"]
 
 echo "${boje[jabuka]}"                          # print(boje["jabuka"])
 echo "${boje[banana]}"                          # print(boje["banana"])
+echo "${#boje[@]}"                              # print(len(boje))
+echo "${boje[@]}"                               # print(boje.values())
+echo "${!boje[@]}"                              # print(boje.keys())
 echo                                            # print()
 
 # ----------------------------------------------------------------------------------------------------
