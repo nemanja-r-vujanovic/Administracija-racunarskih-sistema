@@ -1,5 +1,3 @@
-2. FTP komande
-
 → ftp adresa               # povezivanje na udaljeni računar
 → pwd                      # prikaz radnog direktorijuma na udaljenom računaru
 → ls                       # prikaz sadržaja radnog direktorijuma na udaljenom računaru
