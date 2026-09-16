@@ -1,8 +1,12 @@
 1. Uvod
 
-Lubuntu 19.10
-19               = 2019
-10               = oktobar
+Lubuntu 26.04 LTS (Resolute Raccoon)
+
+Lubuntu          = lagana Ubuntu distribucija (LXQt grafičko okruženje)
+26               = 2026
+04               = april
+LTS              = dugoročna podrška
+Resolute Raccoon = kodno ime verzije
 
 user@user:~$     = prompt
 prvi user        = korisničko ime (username)
