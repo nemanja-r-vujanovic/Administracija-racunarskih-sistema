@@ -1,5 +1,3 @@
-1. SSH komande
-
 → ssh korisnik@adresa      # povezivanje na udaljeni računar
 → pwd                      # prikaz radnog direktorijuma
 → ls                       # prikaz sadržaja radnog direktorijuma
