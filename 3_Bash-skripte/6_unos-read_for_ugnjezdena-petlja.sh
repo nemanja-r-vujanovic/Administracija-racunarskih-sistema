@@ -17,6 +17,8 @@ read -n 1 unos                      # samo jedan karakter
 echo -n -e "\nUnos 2 karaktera: "   # print("\nUnos 2 karaktera: ", end="")
 read -n 2 unos                      # samo dva karaktera
 
+echo                                # print()
+
 # ----------------------------------------------------------------------------------------------------
 # for
 
