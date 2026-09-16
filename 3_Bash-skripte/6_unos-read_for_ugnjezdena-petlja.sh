@@ -11,10 +11,10 @@ read a                              # a = input()
 echo -n "Unesite B: "               # print("Unesite B: ", end="")
 read b                              # b = input()
 
-echo -n "Unesite jedan karakter: "  # print("Unesite jedan karakter: ", end="")
+echo -n -e "Unos 1 karaktera: "     # print("Unos 1 karaktera: ", end="")
 read -n 1 unos                      # samo jedan karakter
 
-echo -n "\nUnesite dva karaktera: " # print("\nUnesite dva karaktera: ", end="")
+echo -n -e "\nUnos 2 karaktera: "   # print("\nUnos 2 karaktera: ", end="")
 read -n 2 unos                      # samo dva karaktera
 
 # ----------------------------------------------------------------------------------------------------
