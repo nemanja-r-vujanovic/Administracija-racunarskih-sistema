@@ -14,7 +14,7 @@ read b                              # b = input()
 echo -n "Unesite jedan karakter: "  # print("Unesite jedan karakter: ", end="")
 read -n 1 unos                      # samo jedan karakter
 
-echo -n "Unesite dva karaktera: "   # print("Unesite dva karaktera: ", end="")
+echo -n "\nUnesite dva karaktera: " # print("\nUnesite dva karaktera: ", end="")
 read -n 2 unos                      # samo dva karaktera
 
 # ----------------------------------------------------------------------------------------------------
