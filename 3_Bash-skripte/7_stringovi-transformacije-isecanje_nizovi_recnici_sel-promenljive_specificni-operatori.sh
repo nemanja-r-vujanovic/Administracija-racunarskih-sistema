@@ -46,7 +46,7 @@ echo "${niz[@]^}"                               # Bash Programiranje
 # ----------------------------------------------------------------------------------------------------
 # Isecanje stringa
 
-ime="Nemanja"
+ime="Nemanja"                                   # ime = "Nemanja"
 echo "${ime}"                                   # Nemanja
 echo "${ime:0:2}"                               # Ne
 echo "${ime::2}"                                # Ne
@@ -62,7 +62,7 @@ voce_niz=("jabuka" "banana" "mandarina")        # voce_niz = ["jabuka", "banana"
 # voce_niz[2]="kivi"                            # # voce_niz[2] = "kivi"
 # echo "${voce_niz[2]}"                         # # print(voce_niz[2])
 
-for (( i = 0; i < "${#voce_niz[@]}"; i++ )); do # for i in range(len(voce_niz)):
+for (( i = 0; i < "${#voce_niz[@]}"; i++ )); do # for i in range(0, len(voce_niz), 1):
 	echo "${voce_niz[$i]}"                      #     print(voce_niz[i])
 done
 
@@ -89,7 +89,7 @@ vrednosti=("abc" "def" "ghi" "jkl" "mno")
 echo "${vrednosti[-1]}"                         # mno
 echo "${#vrednosti[1]}"                         # 3 (def duzina)
 echo "${vrednosti[@]:3:2}"                      # jkl mno
-echo "${!vrednosti[@]}"                         # 0 1 2 3 4
+echo "${!vrednosti[@]}"                         # 0 1 2 3 4 (indeksi)
 
 vrednosti=( "${vrednosti[@]/ab*/}" )            # brisanje po regeksu ab*
 echo "${vrednosti[@]}"                          # def ghi jkl mno
