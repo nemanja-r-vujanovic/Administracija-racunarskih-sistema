@@ -21,7 +21,7 @@ read -n 2 unos                      # samo dva karaktera
 # for
 
 for (( i = 0; i < 10; i++ )); do    # for i in range(0, 10, 1):
-	echo "$proizvod"                #     print(proizvod)
+	echo "$i"                       #     print(i)
 done
 
 # ----------------------------------------------------------------------------------------------------
