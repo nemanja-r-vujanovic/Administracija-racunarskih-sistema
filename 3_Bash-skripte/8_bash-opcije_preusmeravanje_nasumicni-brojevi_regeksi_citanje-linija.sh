@@ -48,7 +48,7 @@ ech "Zdravo!" 2>> "fajl.txt"  # stderr (2) u fajl.txt, append
 ech "Zdravo!" 2>&1            # stderr (2) na stdout (1)
 ech "Zdravo!" 2>/dev/null     # stderr (2) odbaci u /dev/null ("crnu rupu")
 echo "Zdravo!" &>/dev/null    # stdout (1) i stderr (2) odbaci u /dev/null ("crnu rupu")
-echo < "test.txt"             # stdin (0) za echo
+echo < "fajl.txt"             # stdin (0) za echo
 
 # ----------------------------------------------------------------------------------------------------
 # Nasumican broj
