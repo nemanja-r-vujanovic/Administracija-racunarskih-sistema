@@ -7,17 +7,17 @@
 # Bash opcije
 
 # Otkriva skrivene greske:
-set -o pipefail
+# set -o pipefail
 
 # Otkriva nedefinisane promenljive:
-set -o nounset
+# set -o nounset
 
 # Sprecava prepisivanje postojecih fajlova:
 # echo "primer" > "fajl.txt"
-set -o noclobber
+# set -o noclobber
 
 # Prekida lanac izvrsavanja pri gresci:
-set -o errexit
+# set -o errexit
 
 # ----------------------------------------------------------------------------------------------------
 # Provera ukljucenih Bash opcija
