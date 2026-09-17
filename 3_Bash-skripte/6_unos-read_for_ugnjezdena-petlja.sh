@@ -12,10 +12,10 @@ echo -n "Unesite B: "               # print("Unesite B: ", end="")
 read b                              # b = input()
 
 echo -n -e "Unos 1 karaktera: "     # print("Unos 1 karaktera: ", end="")
-read -n 1 unos                      # samo jedan karakter
+read -n 1 unos                      # tacno jedan karakter
 
 echo -n -e "\nUnos 2 karaktera: "   # print("\nUnos 2 karaktera: ", end="")
-read -n 2 unos                      # samo dva karaktera
+read -n 2 unos                      # tacno dva karaktera
 
 echo                                # print()
 
