@@ -1,3 +1,6 @@
 # Predmet: Administracija računarskih sistema
-* Godina:           II
-* Semestar:         III
+* Tema: Linuks
+* Status: Obavezni
+* Godina: II
+* Semestar: III
+* ESPB: 6
