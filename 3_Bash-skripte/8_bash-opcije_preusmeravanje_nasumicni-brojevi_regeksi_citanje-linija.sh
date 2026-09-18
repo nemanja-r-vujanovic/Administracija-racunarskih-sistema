@@ -86,8 +86,8 @@ for i in range(10, -1, -1):
 '
 
 # Pokretanje Python programa:
-python3 "2_program.py"
+python3 "Python/2_program.py"
 
 # Pokretanje Python programa uz prosledjivanje argumenta:
-python3 "3_program.py" 10
+python3 "Python/3_program.py" 10
 # ----------------------------------------------------------------------------------------------------
