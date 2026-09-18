@@ -68,5 +68,5 @@ img {
 }
 
 img:not(:first-of-type) {
-	width: 56% !important;
+	width: 100% !important;
 }
