@@ -64,6 +64,9 @@ img {
 	display: block;
 	width: 100% !important;
 	height: auto !important;
-	object-fit: contain;
 	margin: 0 auto;
+}
+
+img:not(:first-of-type) {
+	width: 56% !important;
 }
