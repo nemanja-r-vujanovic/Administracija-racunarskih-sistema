@@ -68,7 +68,7 @@ echo -e "\e[47m          \e[0m"
 # Kombinovanje sa bojama odvija se razdvajanjem sa tackom zarezom.
 
 # 4. Primer kombinovanja:
-# Podebljan tekst sa crvenom pozadinom i belim slovima
-# echo -e "\e[1;41;37m Upozorenje! \e[0m"
+# Bold + Blink + Crvena pozadina + Beli tekst
+# echo -e "\e[1;5;41;37m Upozorenje! \e[0m"
 
 # ----------------------------------------------------------------------------------------------------
