@@ -28,7 +28,6 @@ body > p:first-of-type {
 }
 
 a {
-	color: #2563eb;
 	text-decoration: none;
 	transition: 0.2s;
 }
