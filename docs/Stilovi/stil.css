@@ -67,7 +67,7 @@ img {
 	margin: 0 auto;
 }
 
-img[src="../Slike/tux.png"] {
-	width: 50px !important;
-	height: 50px !important;
+img[src="Slike/tux.png"] {
+	width: 15% !important;
+	height: 15% !important;
 }
