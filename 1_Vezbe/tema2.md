@@ -66,7 +66,7 @@ echo "Korisnicko ime: $USER"
 
 ## 15. Pisanje dugačke komande u dva reda pomoću znaka \\. (str. 11)
 ```bash
-echo "Akademija strukovnih studija Sumadija \\
+echo "Akademija strukovnih studija Sumadija \
 Odsek Arandjelovac"
 ```
 
