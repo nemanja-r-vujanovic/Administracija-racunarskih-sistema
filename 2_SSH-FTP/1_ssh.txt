@@ -1,3 +1,12 @@
+# Na serveru:
+→ sudo apt update
+→ sudo apt install openssh-server -y
+→ sudo systemctl enable --now ssh.service
+
+# Na klijentu:
+→ sudo apt update
+→ sudo apt install openssh-client -y
+
 → ssh korisnik@adresa      # povezivanje na udaljeni računar
 → pwd                      # prikaz radnog direktorijuma
 → ls                       # prikaz sadržaja radnog direktorijuma
