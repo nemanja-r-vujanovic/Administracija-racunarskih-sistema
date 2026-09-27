@@ -9,7 +9,7 @@
 * sudo apt install openssh-client -y
 
 ## Komande:
-* sftp korisnik@adresa     # povezivanje na udaljeni računar
+* sftp korisnik@adresa     <p align="right"># povezivanje na udaljeni računar</p>
 * pwd                      # prikaz radnog direktorijuma na udaljenom računaru
 * lpwd                     # prikaz radnog direktorijuma na lokalnom računaru
 * ls                       # prikaz sadržaja radnog direktorijuma na udaljenom računaru
