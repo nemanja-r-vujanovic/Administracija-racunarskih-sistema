@@ -44,7 +44,7 @@
 
 ## 15. Pisanje dugačke komande u dva reda pomoću znaka \\. (str. 11)
 * echo "Akademija strukovnih studija Sumadija \\
-* Odsek Arandjelovac"
+ Odsek Arandjelovac"
 
 ## 16. Prikazuje stranicu priručnika za komandu wc. (str. 11)
 * man wc
