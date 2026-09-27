@@ -42,8 +42,8 @@
 ## 14. Ispisuje tekst sa korisničkim imenom iz promenljive USER. (str. 10)
 * echo "Korisnicko ime: $USER"
 
-## 15. Pisanje dugačke komande u dva reda pomoću znaka \. (str. 11)
-* echo "Akademija strukovnih studija Sumadija \
+## 15. Pisanje dugačke komande u dva reda pomoću znaka \\. (str. 11)
+* echo "Akademija strukovnih studija Sumadija \\
 Odsek Arandjelovac"
 
 ## 16. Prikazuje stranicu priručnika za komandu wc. (str. 11)
