@@ -3,10 +3,12 @@
 * sudo apt install openssh-server -y
 * sudo systemctl enable --now ssh.service
 * sudo systemctl status ssh.service
+* ip a | grep "inet "      # pronalaženje IPv4 adrese servera
 
 ## Instalacija na klijentu:
 * sudo apt update
 * sudo apt install openssh-client -y
+* ping -c 3 adresa         # provera dostupnosti servera
 
 ## Komande:
 * ssh korisnik@adresa      # povezivanje na udaljeni računar
