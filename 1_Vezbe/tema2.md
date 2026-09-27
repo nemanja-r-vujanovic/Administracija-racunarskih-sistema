@@ -1,18 +1,18 @@
 # Tema 2
 
-## 1. Prečica za otvaranje novog prozora terminala. (dodato)
-* Ctrl + Alt + T
-
-## 2. Prelazak iz grafičkog korisničkog interfejsa u interfejs virtuelne konzole. (dodato)
+## 1. Prelazak iz grafičkog korisničkog interfejsa u interfejs virtuelne konzole. (dodato)
 * Ctrl + Alt + F4
 
-## 3. Podešavanje većeg fonta u interfejsu virtuelne konzole. (dodato)
+## 2. Podešavanje većeg fonta u interfejsu virtuelne konzole. (dodato)
 ```bash
 sudo dpkg-reconfigure console-setup
 ```
 
-## 4. Povratak u grafički korisnički interfejs iz interfejsa virtuelne konzole. (dodato)
+## 3. Povratak u grafički korisnički interfejs iz interfejsa virtuelne konzole. (dodato)
 * Ctrl + Alt + F7
+
+## 4. Prečica za otvaranje novog prozora terminala. (dodato)
+* Ctrl + Alt + T
 
 ## 5. Dopisuje tekst "Administracija racunarskih sistema" u fajl "fajl1.txt". (dodato)
 ```bash
