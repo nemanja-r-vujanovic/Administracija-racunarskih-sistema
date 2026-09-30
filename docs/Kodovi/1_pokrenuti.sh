@@ -38,3 +38,8 @@ ld "main.o" -o "program_s"
 ./"program_s"
 
 # ----------------------------------------------------------------------------------------------------
+# Bash statistika
+
+chmod +x "linuks-kernel_statistika-prog-jezika.sh"
+./"linuks-kernel_statistika-prog-jezika.sh"
+# ----------------------------------------------------------------------------------------------------
