@@ -25,7 +25,7 @@ cd
 echo "$HOME"
 ```
 
-## 6. Ispisuje lični direktorijum pomoću oznake tilda. (str. 20)
+## 6. Ispisuje direktorijum pomoću oznake tilda. (str. 20)
 ```bash
 echo ~
 ```
