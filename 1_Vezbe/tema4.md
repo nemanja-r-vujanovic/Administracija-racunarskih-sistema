@@ -22,10 +22,10 @@ cd
 
 ## 5. Ispisuje putanju korisnikovog direktorijuma. (str. 20)
 ```bash
-echo "$HOME"
+echo "$HOME/"
 ```
 
 ## 6. Ispisuje direktorijum pomoću oznake tilda. (str. 20)
 ```bash
-echo ~
+echo ~/
 ```
