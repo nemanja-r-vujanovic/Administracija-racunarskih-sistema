@@ -1,46 +1,31 @@
-# Tema 4
+# Tema 4: Fajlsistem
 
-## 1. Postavlja "/usr/share/" za radni direktorijum, korišćenjem apsolutne putanje. (str. 19)
+## 1. Menja radni direktorijum pomoću apsolutne putanje. (str. 19)
 ```bash
 cd "/usr/share/"
 ```
 
-## 2. Prelazi u poddirektorijum "applications/" trenutnog radnog direktorijuma. (str. 19)
+## 2. Prelazi u poddirektorijum. (str. 19)
 ```bash
 cd "applications/"
 ```
 
-## 3. Prelazi u direktorijum "../fonts/" koji se nalazi u naddirektorijumu trenutnog radnog direktorijuma. (str. 19)
+## 3. Prelazi u zadati poddirektorijum naddirektorijuma. (str. 19)
 ```bash
 cd "../fonts/"
 ```
 
-## 4. Postavlja korisnikov home direktorijum za radni direktorijum. (str. 20)
+## 4. Postavlja korisnikov direktorijum za radni. (str. 20)
 ```bash
 cd
 ```
 
-## 5. Ispisuje putanju korisnikovog home direktorijuma, sadržanu u promenljivoj HOME. (str. 20)
+## 5. Ispisuje putanju korisnikovog direktorijuma. (str. 20)
 ```bash
 echo "$HOME"
 ```
 
-## 6. Ispisuje putanju korisnikovog home direktorijuma korišćenjem oznake ~. (str. 20)
+## 6. Ispisuje lični direktorijum pomoću oznake tilda. (str. 20)
 ```bash
 echo ~
-```
-
-## 7. Prikazuje podatke o procesoru. (str. 25)
-```bash
-cat "/proc/cpuinfo"
-```
-
-## 8. Prikazuje podatke o sistemu. (str. 25)
-```bash
-uname -a
-```
-
-## 9. Prikazuje koliko dugo sistem radi od poslednjeg pokretanja. (str. 25)
-```bash
-uptime
 ```
