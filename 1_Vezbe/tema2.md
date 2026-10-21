@@ -39,7 +39,7 @@ wc -lw "fajl1.txt"
 wc -l "fajl1.txt" "fajl2.txt"
 ```
 
-## 10. Pokušava da prebroji linije zaštićenog fajla bez potrebnih dozvola. (str. 9)
+## 10. Pokušava da prebroji linije zaštićenog fajla bez potrebnih ovlašćenja. (str. 9)
 ```bash
 wc -l "/etc/shadow"
 ```
