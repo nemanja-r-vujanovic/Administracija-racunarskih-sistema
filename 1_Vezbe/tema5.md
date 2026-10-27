@@ -162,7 +162,7 @@ expr \( 7 \+ 3 \) \* 10
 
 ## 33. Proverava da li je 15 veće od 16. (str. 45)
 ```bash
-expr "15 /> 16"
+expr 15 \> 16
 ```
 
 ## 34. Preuzima PDF sa zadate adrese i čuva ga u lokalnom fajlu. (str. 47)
