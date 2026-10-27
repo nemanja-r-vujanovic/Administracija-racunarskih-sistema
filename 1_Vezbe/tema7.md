@@ -7,7 +7,7 @@ cd "/usr/games/"
 
 ## 2. Prelazi u korisnikov direktorijum. (str. 62)
 ```bash
-cd "$HOME"
+cd "$HOME/"
 # cd ~
 # cd
 ```
