@@ -30,7 +30,7 @@ exit
 type "who"
 ```
 
-## 7. Prikazuje stavke čija imena počinju slovom a. (str. 30)
+## 7. Prikazuje stavke čija imena počinju slovom b. (str. 30)
 ```bash
 ls "/b"*
 ```
